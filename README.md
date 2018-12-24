@@ -1,4 +1,4 @@
-# docker-fsd-server-alpine
+# FSD Server for Microsoft Flight-Simulator X
 You may want to customize the [fsd.conf](https://github.com/lordisp/docker-fsd-server-alpine/blob/master/src/fsd.conf "fsd.conf") and mount a persitent volume using the -v flag
 
 
