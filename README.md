@@ -20,7 +20,7 @@ services:
   fsd-server:
     image: innohub/fsd-server:1.0-apline
     volumes: 
-      - ./src/:/var/fsd
+      - ./src:/var/fsd
     ports: 
       - "3010:3010"
       - "3011:3011"
