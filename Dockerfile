@@ -10,6 +10,7 @@ WORKDIR /var/fsd
 ADD ./src /var/fsd
 
 RUN chown 33:33 /var/fsd -R
+RUN ln -sf /dev/stdout /var/fsd/log.txt
 EXPOSE 3010 3011 6809
 VOLUME ["/var/fsd"]
 USER fsd
